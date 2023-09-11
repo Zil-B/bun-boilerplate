@@ -1,0 +1,18 @@
+{
+  "semi": true,
+  "singleQuote": false,
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "useTabs": false,
+  "arrowParens": "always",
+  "bracketSameLine": false,
+  "printWidth": 120,
+  "overrides": [
+    {
+      "files": ["*.ts", "*.mts"],
+      "options": {
+        "parser": "typescript"
+      }
+    }
+  ]
+}
